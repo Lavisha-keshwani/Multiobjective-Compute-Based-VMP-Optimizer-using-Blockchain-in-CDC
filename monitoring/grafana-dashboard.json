@@ -1,0 +1,11 @@
+{
+  "dashboard": {
+    "title": "Local Simulator Dashboard",
+    "panels": [
+      {"type":"graph","title":"Energy (Wh)","targets":[{"expr":"sim_energy_wh"}]},
+      {"type":"graph","title":"Carbon (g)","targets":[{"expr":"sim_carbon_g"}]},
+      {"type":"graph","title":"Throughput","targets":[{"expr":"sim_throughput"}]},
+      {"type":"graph","title":"SLA Violations","targets":[{"expr":"sim_sla_viol"}]}
+    ]
+  }
+}
